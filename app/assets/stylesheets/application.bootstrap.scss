@@ -1,0 +1,39 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+
+/*                      navbar                         */
+.custom-navbar {
+    background-color: #234898 !important;
+  }
+  
+  .custom-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .custom-logo {
+    height: 40px !important;
+    width: auto !important;
+    margin-right: 20px; 
+  }
+  
+  .custom-navbar .navbar-nav .nav-link {
+    color: #ffc11f !important;
+  }
+  
+  
+
+/*                            boton amarello con azurello mamamia                         */
+
+.custom-button {
+    background-color: #234898 !important; 
+    color: #ffc11f !important; 
+    border: none; 
+  }
+  
+  .custom-button:hover {
+    background-color: #1b3d6a !important; 
+  }
+  

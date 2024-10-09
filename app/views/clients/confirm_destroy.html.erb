@@ -1,0 +1,5 @@
+<div class="alert alert-warning">
+  <p>¿Estás seguro que quieres eliminar este cliente?</p>
+  <%= button_to "Si, eliminar", @client, method: :delete, data: { confirm: "Estás seguro?" }, class: "btn btn-danger" %>
+  <%= link_to "Cancelar", clients_path, class: "btn btn-secondary" %>
+</div>
